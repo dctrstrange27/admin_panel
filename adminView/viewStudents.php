@@ -35,7 +35,6 @@
     }
     ?>
   </table>
-  
   <script>
     function deleteStudent(id) {
       if(confirm("Are you sure you want to delete this student?")) {

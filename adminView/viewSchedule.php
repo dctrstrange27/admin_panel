@@ -69,7 +69,6 @@ body {
 .days div.empty {
   background-color: #f8f8f8;
 }
-
 </style>    
 
   </head>
