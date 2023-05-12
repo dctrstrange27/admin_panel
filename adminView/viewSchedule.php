@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html>
 
-<head>
-  <meta charset="UTF-8">
-  <title>Schedule</title>
-</head>
-
-<body>
   <div class="main-container">
     <div class="head">
       <select class="subject" name="subject">
@@ -60,9 +52,5 @@
       <button class="bt3">End Class</button>
       </div>
     </div>
-
   </div>
 
-</body>
-
-</html>
