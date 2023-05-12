@@ -68,6 +68,20 @@ function showProductSizes() {
   });
 }
 
+function showProfile() {
+    $.ajax({
+      url: "./adminView/viewProfile.php",
+      method: "post",
+      data: { record: 1 },
+      success: function (data) {
+        $('.allContent-section').html(data);
+      },
+      error: function (jqXHR, textStatus, errorThrown) {
+        console.log(textStatus, errorThrown);
+      }
+    });
+  }
+
 function showOrders() {
   $.ajax({
     url: "./adminView/viewAllOrders.php",
