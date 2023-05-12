@@ -63,12 +63,8 @@
                     <h4 style="color:white;">Total Hours</h4>
                     <h5 style="color:white;">
                     <?php
-<<<<<<< HEAD
-                       $sql="SELECT * from Rooms";
-=======
                        
                        $sql="SELECT * from rooms";
->>>>>>> e2166c3cc738d8a2304cc0761cb298236b33e5b9
                        $result=$conn-> query($sql);
                        $count=0;
                        if ($result-> num_rows > 0){
