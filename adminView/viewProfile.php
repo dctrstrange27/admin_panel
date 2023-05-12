@@ -18,7 +18,7 @@ $rooms = $conn->query($sql);
 
 <div class="w-100">
     <p class="text-2xl"><i class="fa fa-user-o" aria-hidden="true"></i> <span class="font-semibold text-2xl">Teacher: </span> <?= $currentProfessor["username"] ?></p>
-    <div class="p-3 rounded-lg shadowed" style="padding-top:1rem; min-height: 100px; background-color:white">
+    <div class="p-4 rounded-lg shadowed" style="padding-top:1rem; min-height: 100px; background-color:white">
         <table class="styled-table w-100 border-lg">
             <thead>
                 <tr>
@@ -46,7 +46,7 @@ $rooms = $conn->query($sql);
         <p id="currentTime" style="text-align: right;" class="w-100 text-sm mt-4"></p>
     </div>
     <hr />
-    <div class="p-3 rounded-lg shadowed flex justify-evenly" style="padding-top:1rem; min-height: 100px; background-color:white">
+    <div class="p-4 rounded-lg shadowed flex justify-evenly" style="padding-top:1rem; min-height: 100px; background-color:white">
         <table class="styled-table" style="width:80%">
             <tbody>
                 <tr>
