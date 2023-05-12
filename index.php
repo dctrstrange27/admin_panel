@@ -43,8 +43,8 @@
                     <i class="fa fa-th-large mb-2" style="font-size: 30px; color:#fff"></i>
                     <h4 style="color:white;">Total Courses</h4>
                     <h5 style="color:white;">
-                    <?php
-                       $sql="SELECT * from Courses";
+                    <?php    
+                       $sql="SELECT * from courses";
                        $result=$conn-> query($sql);
                        $count=0;
                        if ($result-> num_rows > 0){
@@ -63,7 +63,12 @@
                     <h4 style="color:white;">Total Hours</h4>
                     <h5 style="color:white;">
                     <?php
+<<<<<<< HEAD
                        $sql="SELECT * from Rooms";
+=======
+                       
+                       $sql="SELECT * from rooms";
+>>>>>>> e2166c3cc738d8a2304cc0761cb298236b33e5b9
                        $result=$conn-> query($sql);
                        $count=0;
                        if ($result-> num_rows > 0){
@@ -84,7 +89,7 @@
                     <h5 style="color:white;">
                     <?php
                        
-                       $sql="SELECT * from Rooms";
+                       $sql="SELECT * from rooms";
                        $result=$conn-> query($sql);
                        $count=0;
                        if ($result-> num_rows > 0){
