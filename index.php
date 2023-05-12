@@ -10,13 +10,10 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.css">
         <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
-        <link rel="stylesheet" href="./assets/css/style.css">
-        </link>
-        <link rel="stylesheet" href="./assets/css/style2.css">
-        <link rel="stylesheet" href="./assets//css//viewSchedStyle.css">
-        <link rel="stylesheet" href="./assets//css//navBar.css">
-        </link>
-
+        <link rel="stylesheet" href="./assets/css/style.css"/>
+        <link rel="stylesheet" href="./assets/css/style2.css"/>
+        <link rel="stylesheet" href="./assets/css/viewSchedStyle.css"/>
+        <link rel="stylesheet" href="./assets/css/navBar.css"/>
     </head>
 </head>
 

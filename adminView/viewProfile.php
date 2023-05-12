@@ -45,8 +45,8 @@
             </tbody>
         </table>
         <div class="p-4" style="width:20%">
-            <button class="w-100 my-2">Add</button>
-            <button class="w-100 my-2">Delete</button>
+            <button class="w-100 my-2 bt-2 btn_style btn_normal">Add</button>
+            <button class="w-100 my-2 bt-2 btn_style">Delete</button>
         </div>
     </div>
     <script>
