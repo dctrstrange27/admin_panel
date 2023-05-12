@@ -9,7 +9,6 @@
     <a href="./index.php"><i class="fa fa-home"></i> Dashboard</a>
     <a href="#Schedule" onclick="showSchedule()"><i class="fa fa-calendar"></i> Schedule</a>
     <a href="#" onclick="showProfile()"><i class="fa fa-users"></i> Profile</a>
-
 </div>
 
 <div id="main">
