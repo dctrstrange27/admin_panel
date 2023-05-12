@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+  }
+  .bt1 {
+    padding: 5px;
+    border: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 10px;
+    border-radius: 9px;
+    background-color: rgb(226 232 240);
+    width: 20vw;
+    height: 2rem;
+  }
+  .bt2,.bt3{
+    padding: 5px;
+    border: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 10px;
+    border-radius: 9px;
+    background-color: rgb(226 232 240);
+    width: 20vw;
+    height: 3rem;
+  }
+  .bt1:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  .bt2:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  .bt3:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  select {
+    border-radius: 9px;
+  }
+  .subject {
+    color: #333;
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    width: 100vw;
+    height: 40px;
+  }
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 30px;
+    gap: 20px;
+    border-radius: 20px;
+    box-shadow: -1px 8px 14px #88888840;
+  }
+  .head {
+    display: flex;
+    justify-content: center;
+  }
+  .main-body {
+    width: 100%;
+    height: 60vh;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .body-two{
+    height: 30vh;
+    width: 100%;
+    padding: 20px 5px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  table {
+          border-collapse: collapse;
+          width: 100%;
+      }
+      th, td {
+          text-align: left;
+          padding: 8px;
+      }
+      th {
+       background-color: rgb(148 163 184);
+          color: white;
+      }
+      tr:nth-child(even) {
+          background-color: #f2f2f2;
+      }
+  .start-field{
+    border-top-left-radius: 10px;
+  }
+  .room-field{
+    border-top-right-radius: 10px;
+  }
+  .body-one{
+    height: 70vh;
+  }

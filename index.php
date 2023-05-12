@@ -13,6 +13,8 @@
         <link rel="stylesheet" href="./assets/css/style.css">
         </link>
         <link rel="stylesheet" href="./assets/css/style2.css">
+        <link rel="stylesheet" href="./assets//css//viewSchedStyle.css">
+        <link rel="stylesheet" href="./assets//css//navBar.css">
         </link>
 
     </head>
