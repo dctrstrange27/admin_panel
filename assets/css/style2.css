@@ -81,6 +81,7 @@
 
 .tr_hoverable:hover {
     background-color: #f4f4f4;
+    transition: 0.2s ease-in-out;
 }
 
 .styled-table tbody tr {
@@ -88,11 +89,11 @@
 }
 
 .styled-table tbody tr:nth-of-type(even) {
-    background-color: #f3f3f3;
+    background-color: #fafafa;
 }
 
 .styled-table tbody tr:last-of-type {
-    border-bottom: 2px solid #c6c6c6;
+    border-bottom: 2px solid #fafafa;
 }
 
 .cursor-pointer {
@@ -137,15 +138,32 @@
     background-color: #009ef7;
 }
 
+.btn-err:hover{
+    background-color: #b82777;
+    color: white;
+}
+
 .btn-normal{
     background-color: #f9f9f9;
 }
 
 .btn-normal:hover{
     background-color: #009ef7;
+    color:white;
+}
+
+button{
+    cursor: pointer;
 }
 
 .btn_style{
-    animation: 0.5s ease-in;
-    padding: 2px 3px;
+    transition: 0.2s ease-in-out;
+    padding: 3px 4px;
+    border-radius: 5px;
+    border:none;
+    outline: none;
+}
+
+.btn_style:focus{
+    outline: none;
 }
