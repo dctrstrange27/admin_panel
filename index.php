@@ -45,7 +45,7 @@
                     <h5 style="color:white;">
                     <?php
                        
-                       $sql="SELECT * from Courses";
+                       $sql="SELECT * from courses";
                        $result=$conn-> query($sql);
                        $count=0;
                        if ($result-> num_rows > 0){
@@ -66,7 +66,7 @@
                     <h5 style="color:white;">
                     <?php
                        
-                       $sql="SELECT * from Rooms";
+                       $sql="SELECT * from rooms";
                        $result=$conn-> query($sql);
                        $count=0;
                        if ($result-> num_rows > 0){
@@ -88,7 +88,7 @@
                     <h5 style="color:white;">
                     <?php
                        
-                       $sql="SELECT * from Rooms";
+                       $sql="SELECT * from rooms";
                        $result=$conn-> query($sql);
                        $count=0;
                        if ($result-> num_rows > 0){
